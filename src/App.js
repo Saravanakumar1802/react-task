@@ -9,6 +9,7 @@ function App() {
   const navigate = useNavigate()
   return (
     <div className="App">
+      <h1>React Assignments</h1>
       <button onClick={() => navigate('/element-transfer')}>Problem 1</button>&nbsp;
       <button onClick={() => navigate('/nested-list')}>Problem 2</button>&nbsp;
       <button onClick={() => navigate('/infinite-scrolling')}>Problem 3</button>
